@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/form.css">
+    <title>AV01 FS10</title>
+</head>
+<body>
+    <form action="http://192.168.2.138:8090/av01" target="_blank">
+        <div class="container">
+            <div class="legend">
+            <legend><b>Avaliação U01 M02 FS10</b></legend><br>
+            </div>
+
+            <div class="item-block">
+                <label for="name">Nome Completo</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">E-Mail:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="marca">Marca de Carro</label><br>
+                <select id="marca" name="marca">
+                    <option value="Bentley">Bentley</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Toyota">Toyota</option>
+                </select><br><br>
+
+                <label for="quantity-range">Velocidade Máxima (100 e 200)</label><br>
+                <input type="range" id="velocidade" name="velocidade" min="100" max="200" step="20">   
+
+                <p>Cor Preferida</p>
+                        <input type="radio" id="cor" name="cor" value="Vermelho">
+                        <label for="Vermelho">Vermelho</label>
+                        <input type="radio" id="cor" name="cor" value="Verde">
+                        <label for="css">Verde</label>
+                        <input type="radio" id="cor" name="cor" value="Azul" checked>
+                        <label for="javascript">Azul</label><br><br>
+
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Cadastrar">
+
+            </div>
+
+        </div>
+
+
+    </form>
+</body>
+</html>

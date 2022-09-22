@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(222,184,135)
+}
+
+.legend{
+    color: rgb(255,99,71)
+}
+
+.container{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
